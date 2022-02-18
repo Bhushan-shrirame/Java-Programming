@@ -5,18 +5,18 @@ public class Pattern {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        // int m = sc.nextInt();
+        int m = sc.nextInt();
 
         //que.1
 
         // outer loop
-        // for(int i =1; i<=n;i++){
-               // inner loop
-        //     for(int j = 1; j <=m;j++){
-        //        System.out.print("*");
-        //     }
-        //     System.out.println(); 
-        // }
+        for(int i =1; i<=n;i++){
+               inner loop
+            for(int j = 1; j <=m;j++){
+               System.out.print("*");
+            }
+            System.out.println(); 
+        }
 
 
         //Que2
@@ -30,18 +30,18 @@ public class Pattern {
         // int m= 5;
 
         // //outer loop
-        // for(int i =1; i<=n; i++){
-        //     //inner loop
-        //     for(int j=1; j<=m; j++){
-        //         //cell -> (i,j)
-        //         if(i==1 || j==1 || i==n || j==m){
-        //             System.out.print("*");
-        //         }else{
-        //             System.out.print(" ");
-        //         }
-        //     }
-        //     System.out.println(); 
-        // }
+        for(int i =1; i<=n; i++){
+            //inner loop
+            for(int j=1; j<=m; j++){
+                //cell -> (i,j)
+                if(i==1 || j==1 || i==n || j==m){
+                    System.out.print("*");
+                }else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println(); 
+        }
 
         //Que3
         // *
@@ -49,13 +49,13 @@ public class Pattern {
         // *** 
         // ****
 
-        // for(int i=1; i<=n; i++){
-        //     for(int j =1;j<=i;j++){
-        //         System.out.print("*");
-        //     }
-        //     System.out.println();
+        for(int i=1; i<=n; i++){
+            for(int j =1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
 
-        // }
+        }
         
         //Que4
         // ****
@@ -63,13 +63,13 @@ public class Pattern {
         // **
         // *
 
-        // for(int i=n; i>=1; i--){
-        //     for(int j =1;j<=i;j++){
-        //         System.out.print("*");
-        //     }
-        //     System.out.println();
+        for(int i=n; i>=1; i--){
+            for(int j =1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
 
-        // }
+        }
 
         //Que5
         //     *
@@ -78,17 +78,17 @@ public class Pattern {
         //  ****
         
         //outer loop
-        // for(int i=1; i<=n; i++){
-        //     //inner loop --> Space print
-        //     for(int j =1;j<=n-i;j++){
-        //         System.out.print(" ");
-        //     }
-        //     //inner loop --> star print
-        //     for(int j=1; j<=i;j++){
-        //         System.out.print("*");
-        //     }
-        //     System.out.println();
-        // }
+        for(int i=1; i<=n; i++){
+            //inner loop --> Space print
+            for(int j =1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            //inner loop --> star print
+            for(int j=1; j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
         //Que6
         //1
@@ -98,13 +98,13 @@ public class Pattern {
         //12345
         
         //outer loop
-        // for(int i =1 ; i<=n; i++){
-        //     //inner loop
-        //     for(int j=1;j<=i;j++){
-        //         System.out.print(j+" ");
-        //     }
-        //     System.out.println();
-        // }
+        for(int i =1 ; i<=n; i++){
+            //inner loop
+            for(int j=1;j<=i;j++){
+                System.out.print(j+" ");
+            }
+            System.out.println();
+        }
 
 
         //Que7
@@ -115,13 +115,13 @@ public class Pattern {
         //1
 
         //outer loop
-        // for(int i =1 ; i<=n; i++){
-        //     //inner loop
-        //     for(int j=1;j<=n-i+1;j++){
-        //         System.out.print(j+" ");
-        //     }
-        //     System.out.println();
-        // }
+        for(int i =1 ; i<=n; i++){
+            //inner loop
+            for(int j=1;j<=n-i+1;j++){
+                System.out.print(j+" ");
+            }
+            System.out.println();
+        }
 
         //Que8
         //1
@@ -131,16 +131,16 @@ public class Pattern {
         //11 12 13 14 15
 
         
-        // int number =1;
-        // //outer loop
-        // for(int i =1; i<=n;i++){
-        //     //inner loop
-        //     for(int j =1; j<=i;j++){
-        //         System.out.print(number+" ");
-        //         number++;
-        //     }
-        //     System.out.println();
-        // }
+        int number =1;
+        //outer loop
+        for(int i =1; i<=n;i++){
+            //inner loop
+            for(int j =1; j<=i;j++){
+                System.out.print(number+" ");
+                number++;
+            }
+            System.out.println();
+        }
 
         //Que9
         //1
