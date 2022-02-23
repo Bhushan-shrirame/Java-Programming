@@ -26,14 +26,18 @@ public class Strings {
         // }
 
         //Compare
-        String name1 ="Tony";
-        String name2 = "Tony";
+        // String name1 ="Tony";
+        // String name2 = "Tony";
 
-        if(name1.compareTo(name2) == 0){
-            System.out.println("String are equal");
-        }else{
-            System.out.println("String are not equal");
-        }
+        // if(name1.compareTo(name2) == 0){
+        //     System.out.println("String are equal");
+        // }else{
+        //     System.out.println("String are not equal");
+        // }
+
+        String sentence = "My name is Bhushan";
+        String name = sentence.substring(11, sentence.length());
+        System.out.println(name);
 
     } 
     
