@@ -14,15 +14,25 @@ public class Strings {
 
 
         // Concatenation
-        String firstName = "Tony";
-        String lastName = "Stark";
-        String fullName = firstName + " " +lastName;
-        System.out.println(fullName);
-        System.out.println(fullName.length());
+        // String firstName = "Tony";
+        // String lastName = "Stark";
+        // String fullName = firstName + " " +lastName;
+        // System.out.println(fullName);
+        // System.out.println(fullName.length());
         
-        //charAt
-        for(int i=0; i<fullName.length(); i++){
-            System.out.println(fullName.charAt(i));
+        // //charAt
+        // for(int i=0; i<fullName.length(); i++){
+        //     System.out.println(fullName.charAt(i));
+        // }
+
+        //Compare
+        String name1 ="Tony";
+        String name2 = "Tony";
+
+        if(name1.compareTo(name2) == 0){
+            System.out.println("String are equal");
+        }else{
+            System.out.println("String are not equal");
         }
 
     } 
